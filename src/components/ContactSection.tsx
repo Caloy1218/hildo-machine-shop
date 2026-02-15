@@ -36,8 +36,8 @@ const ContactSection = () => {
             <div className="space-y-4">
               {[
                 { icon: Phone, label: "Phone", value: "+63 XXX XXX XXXX" },
-                { icon: Mail, label: "Email", value: "info@hildomachineshop.com" },
-                { icon: MapPin, label: "Location", value: "Philippines" },
+                { icon: Mail, label: "Email", value: "hildomachineshop@gmail.com" },
+                { icon: MapPin, label: "Location", value: "National Highway, Homestead, Bambang, N.V" },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
