@@ -1,14 +1,33 @@
 import { useState } from "react";
 import { MapPin, Phone, Mail } from "lucide-react";
+import emailjs from "@emailjs/browser";
 
 const ContactSection = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert("Thank you for your message! We will get back to you soon.");
+
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+
+  emailjs.send(
+    "service_sapfxyo",
+    "template_a05lp8r",
+    {
+      from_name: form.name,
+      from_email: form.email,
+      message: form.message,
+    },
+    "Jm7e4faktz-OFZn8R"
+  )
+  .then(() => {
+    alert("Message sent successfully!");
     setForm({ name: "", email: "", message: "" });
-  };
+  })
+  .catch((error) => {
+    console.error("FAILED...", error);
+    alert("Failed to send message.");
+  });
+};
 
   return (
     <section id="contact" className="section-padding">
