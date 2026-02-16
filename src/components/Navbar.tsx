@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Sun, Moon } from "lucide-react";
+import logo from "../assets/Hildo-Machine-shop-Icon-nobg-Photoroom.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -33,9 +34,17 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4">
+        <div className="container mx-auto flex items-center gap-2 -ml-10 ">
+          <img
+          src={logo}
+          alt="Hildo Machine Shop Logo"
+          className="h-12 w-auto object-contain"
+        />
         <a href="#home" className="font-display text-lg font-bold tracking-wider text-primary">
-          HILDO<span className="text-accent">Machine Shop</span>
+          HILDO<span className="text-accent">MachineShop</span>
         </a>
+        </div>
+        
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
