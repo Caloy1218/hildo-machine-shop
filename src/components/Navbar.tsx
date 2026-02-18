@@ -38,11 +38,15 @@ const Navbar = () => {
           <img
           src={logo}
           alt="Hildo Machine Shop Logo"
-          className="h-12 w-auto object-contain"
+          className="h-16 w-auto object-contain"
         />
-        <a href="#home" className="font-display text-lg font-bold tracking-wider text-primary">
-          HILDO<span className="text-accent">MachineShop</span>
+        <a 
+          href="#home" 
+          className="font-display text-lg font-bold tracking-wider text-[#e87710]"
+        >
+          HILDO<span>MachineShop</span>
         </a>
+
         </div>
         
 

@@ -33,7 +33,7 @@ const handleSubmit = (e: React.FormEvent) => {
     <section id="contact" className="section-padding">
       <div className="container mx-auto">
         <div className="text-center mb-14">
-          <p className="text-accent font-medium tracking-[0.2em] uppercase text-sm mb-2">Get In Touch</p>
+          <p className="text-[#e87710] font-medium tracking-[0.2em] uppercase text-sm mb-2">Get In Touch</p>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground">
             Contact Us
           </h2>
@@ -111,7 +111,7 @@ const handleSubmit = (e: React.FormEvent) => {
             </div>
             <button
               type="submit"
-              className="w-full py-3 bg-accent text-accent-foreground font-semibold rounded-lg hover:brightness-110 transition-all duration-300"
+              className="w-full py-3 bg-[#e87710] text-accent-foreground font-semibold rounded-lg hover:brightness-110 transition-all duration-300"
             >
               Send Message
             </button>

@@ -24,7 +24,7 @@ const ServicesSection = () => (
   <section id="services" className="section-padding bg-secondary/50">
     <div className="container mx-auto">
       <div className="text-center mb-14">
-        <p className="text-accent font-medium tracking-[0.2em] uppercase text-sm mb-2">What We Do</p>
+        <p className="text-[#e87710] font-medium tracking-[0.2em] uppercase text-sm mb-2">What We Do</p>
         <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground">
           Engineering Services
         </h2>

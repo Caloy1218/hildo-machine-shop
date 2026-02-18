@@ -12,7 +12,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto text-center px-4">
-        <p className="text-accent font-medium tracking-[0.3em] uppercase text-sm mb-4 animate-fade-up">
+        <p className="text-[#e87710] font-medium tracking-[0.3em] uppercase text-sm mb-4 animate-fade-up">
           Est. 1996
         </p>
         <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-up-delay-1 leading-tight">
@@ -29,7 +29,7 @@ const HeroSection = () => {
         </p>
         <a
           href="#machines"
-          className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-accent-foreground font-semibold rounded-lg hover:brightness-110 transition-all duration-300 animate-fade-up-delay-3"
+          className="inline-flex items-center gap-2 px-8 py-4 bg-[#e87710] text-accent-foreground font-semibold rounded-lg hover:brightness-110 transition-all duration-300 animate-fade-up-delay-3"
           style={{ animation: "fadeUp 0.6s ease-out 0.6s forwards, pulse-glow 3s ease-in-out 1.2s infinite", opacity: 0 }}
         >
           View Our Machines

@@ -31,7 +31,7 @@ const MachinesSection = () => {
       <section id="machines" className="section-padding">
         <div className="container mx-auto">
           <div className="text-center mb-14">
-            <p className="text-accent font-medium tracking-[0.2em] uppercase text-sm mb-2">Equipment</p>
+            <p className="text-[#e87710] font-medium tracking-[0.2em] uppercase text-sm mb-2">Equipment</p>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground">
               Our Machines
             </h2>
